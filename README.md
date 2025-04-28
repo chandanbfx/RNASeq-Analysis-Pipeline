@@ -99,10 +99,11 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## ✨ Acknowledgments
 This project relies on the following amazing tools and resources:
+
     Snakemake: A workflow management system to create reproducible and scalable data analyses.
     STAR: Ultrafast universal RNA-seq aligner.
-    FeatureCounts: Efficient read summarization program for counting reads to genomic features.
-    FastQC: Quality control tool for high throughput sequence data.
+    FeatureCounts: An Efficient read summarization program for counting reads to genomic features.
+    FastQC: Quality control tool for high-throughput sequence data.
     DESeq2: R package for differential gene expression analysis based on the negative binomial distribution.
     R Project: Statistical computing and graphics environment used for data analysis.
     GENCODE/Ensembl: Source for high-quality human genome annotations (GTF, GFF files).
