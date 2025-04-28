@@ -19,9 +19,13 @@ This is a **Snakemake**-based RNA-Seq pipeline for performing quality control, r
 
 ## 📥 Download Required Files
 
-1. **Reference GFF3 File:**
-   - Download manually from:  
+1. **Reference Files:**
+   - Download gff3 file:  
      [Homo_sapiens.GRCh38.113.gff3.gz](https://ftp.ensembl.org/pub/release-113/gff3/homo_sapiens/Homo_sapiens.GRCh38.113.gff3.gz)
+   - Downloadn reference genome:
+     [Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz](https://ftp.ensembl.org/pub/release-113/fasta/homo_sapiens/dna)
+   - Download GTF file:
+     [Homo_sapiens.GRCh38.113.gtf.gz](https://ftp.ensembl.org/pub/release-113/gff3/homo_sapiens/Homo_sapiens.GRCh38.113.gff3.gz)
    - Place it inside the `reference/` directory.
 
 2. **Raw FASTQ Files:**
@@ -94,7 +98,12 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 ## ✨ Acknowledgments
-
-- ENA for raw RNA-Seq data
-- Ensembl for the Homo sapiens genome annotations
-- Authors of Snakemake, STAR, FastQC, FeatureCounts, and DESeq2
+This project relies on the following amazing tools and resources:
+    Snakemake: A workflow management system to create reproducible and scalable data analyses.
+    STAR: Ultrafast universal RNA-seq aligner.
+    FeatureCounts: Efficient read summarization program for counting reads to genomic features.
+    FastQC: Quality control tool for high throughput sequence data.
+    DESeq2: R package for differential gene expression analysis based on the negative binomial distribution.
+    R Project: Statistical computing and graphics environment used for data analysis.
+    GENCODE/Ensembl: Source for high-quality human genome annotations (GTF, GFF files).
+    European Nucleotide Archive (ENA): Public database for raw sequencing data (study accession: PRJNA229998).
