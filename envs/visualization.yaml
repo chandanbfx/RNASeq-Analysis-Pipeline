@@ -1,0 +1,10 @@
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - r-ggplot2=3.4.3
+  - r-svglite=2.1.1
+  - r-fontquiver=0.2.1
+  - r-pheatmap=1.0.12
+  - r-ggrepel=0.9.3  # For better label placement
+  - r-rmarkdown=2.25  # For report generation

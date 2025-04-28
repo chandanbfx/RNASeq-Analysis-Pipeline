@@ -1,0 +1,57 @@
+
+sample_table: "config/Samples.tsv"
+
+# Quality parameters
+qual:
+  leading: 20
+  trailing: 20
+adapter_file: adapters/TruSeq2-PE.fa
+min_len: 36
+seed_mismatches: 2
+palindrome_clip_threshold: 40
+simple_clip_threshold: 15
+adapter_len: 8
+
+# Reference files
+reference:
+  genome: reference/GRCh38.primary_assembly.genome.fa
+  gtf: reference/gencode.v34.primary_assembly.annotation.gtf
+  gff: reference/gencode.v34.primary_assembly.annotation.gff3.gz
+
+# STAR parameters
+star:
+  chr_bin_nbits: 18
+  sjdb_overhang: 59
+
+# Resources
+resources:
+  qc:
+    threads: 8
+    mem_mb: 30000
+    disk_mb: 60000
+  assembly:
+    threads: 15
+    mem_mb: 120000
+    disk_mb: 100000
+  star:
+    threads: 15
+    mem_mb: 130000
+    disk_mb: 100000
+  deseq2:
+    threads: 4
+    mem_mb: 30000
+    disk_mb: 30000
+  count:
+    threads: 8
+    mem_mb: 30000
+    disk_mb: 60000
+
+# Analysis parameters
+pca:
+  labels: ["condition"]
+
+diffexp:
+  contrasts:
+    treated-vs-untreated:
+      numerator: treated
+      denominator: untreated

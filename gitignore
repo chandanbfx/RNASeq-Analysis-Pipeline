@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Snakemake
+.snakemake/
+*.snakemake
+*.log
+
+# Conda environments
+.env/
+.venv/
+*.env
+*.venv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output directories (adjust if needed)
+deseq2/
+logs/
+reference/*.gz
+raw_data/*.fastq.gz
+
+# Jupyter notebooks
+.ipynb_checkpoints/

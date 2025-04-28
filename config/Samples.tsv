@@ -1,0 +1,5 @@
+sample	condition	fq1	fq2
+SRR1039508	untreated	raw_data/SRR1039508_1.fastq.gz	raw_data/SRR1039508_2.fastq.gz
+SRR1039509	treated	raw_data/SRR1039509_1.fastq.gz	raw_data/SRR1039509_2.fastq.gz
+SRR1039512	untreated	raw_data/SRR1039512_1.fastq.gz	raw_data/SRR1039512_2.fastq.gz
+SRR1039513	treated	raw_data/SRR1039513_1.fastq.gz	raw_data/SRR1039513_2.fastq.gz

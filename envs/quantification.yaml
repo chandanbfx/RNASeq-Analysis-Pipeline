@@ -1,0 +1,6 @@
+channels:
+  - bioconda
+dependencies:
+  - subread=2.0.6
+  - htseq=2.0.2
+  - salmon=1.10.1  # For transcript-level quantification
