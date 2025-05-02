@@ -22,7 +22,7 @@ This is a **Snakemake**-based RNA-Seq pipeline for performing quality control, r
 1. **Reference Files:**
    - Download gff3 file:  
      [Homo_sapiens.GRCh38.113.gff3.gz](https://ftp.ensembl.org/pub/release-113/gff3/homo_sapiens/Homo_sapiens.GRCh38.113.gff3.gz)
-   - Downloadn reference genome:
+   - Download reference genome:
      [Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz](https://ftp.ensembl.org/pub/release-113/fasta/homo_sapiens/dna)
    - Download GTF file:
      [Homo_sapiens.GRCh38.113.gtf.gz](https://ftp.ensembl.org/pub/release-113/gff3/homo_sapiens/Homo_sapiens.GRCh38.113.gff3.gz)
