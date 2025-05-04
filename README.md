@@ -4,7 +4,7 @@ This is a **Snakemake**-based RNA-Seq pipeline for performing quality control, r
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 ```
 ├── adapters/          # Contains adapter sequences for trimming
 ├── config/            # Contains config.yaml and Samples.tsv
@@ -17,7 +17,7 @@ This is a **Snakemake**-based RNA-Seq pipeline for performing quality control, r
 
 ---
 
-## 📥 Download Required Files
+## Download Required Files
 
 1. **Reference Files:**
    - Download gff3 file:  
@@ -35,7 +35,7 @@ This is a **Snakemake**-based RNA-Seq pipeline for performing quality control, r
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 Edit the `config/config.yaml` file to adjust:
 - Quality trimming parameters
 - Reference genome paths
@@ -45,7 +45,7 @@ Sample metadata (samples and conditions) should be listed in `config/Samples.tsv
 
 ---
 
-## 🚀 Running the Pipeline
+## Running the Pipeline
 
 First, perform a dry run:
 
@@ -67,7 +67,7 @@ snakemake --report report.html
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - [Snakemake](https://snakemake.readthedocs.io/)
 - [Conda](https://docs.conda.io/en/latest/) (recommended)
@@ -78,7 +78,7 @@ snakemake --report report.html
 
 ---
 
-## 📜 Rules Overview
+## Rules Overview
 
 - **quality_control.smk**: Quality and adapter trimming
 - **fastqc.smk**: Quality checking using FastQC
@@ -91,13 +91,13 @@ snakemake --report report.html
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## ✨ Acknowledgments
+## Acknowledgments
 This project relies on the following amazing tools and resources:
 
     Snakemake: A workflow management system to create reproducible and scalable data analyses.
